@@ -6,12 +6,12 @@ This is a simple web application built with Django that allows users to input da
 
 1. Clone the repository to your local machine:
 
-`git clone https://github.com/sairamchidurala/basicWebApp.git`
+`git clone  https://github.com/meadalrao/projectapp.git`
 
 
 2. Navigate to the project directory:
 
-`cd basicWebApp`
+`cd projectapp`
 
 
 3. Create a virtual envirnoment and activate it.
