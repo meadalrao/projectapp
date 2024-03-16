@@ -23,12 +23,13 @@ This is a simple web application built with Django that allows users to input da
    Launch Command Prompt and navigate to the directory where you wish to establish the virtual environment.
    Execute the following command to form a virtual environment named "venv":
 
-   `python3 -m venv venv`
+   `python -m venv venv`
 
 3. **Activate Virtual Environment:**
    Move to the directory containing the virtual environment and initiate the activation script:
 
    `venv\Scripts\activate`
+   or copy and paste the path
 
    Upon activation, you'll notice "(venv)" displayed at the beginning of the command prompt, indicating the active virtual environment.
 
@@ -38,7 +39,7 @@ This is a simple web application built with Django that allows users to input da
    Open the Terminal and navigate to the desired directory for the virtual environment.
    Utilize the following command to generate a virtual environment named "venv":
 
-   `python3 -m venv venv`
+   `python -m venv venv`
 
 3. **Activate Virtual Environment:**
    Navigate to the directory holding the virtual environment and run the activation script:
@@ -55,12 +56,12 @@ This is a simple web application built with Django that allows users to input da
 
 6. Apply migrations to set up the database schema:
 
-`python3 manage.py migrate`
+`python manage.py migrate`
 
 
 7. Running the Application
 
-`python3 manage.py runserver`
+`python manage.py runserver`
 
 
 Access the application in your web browser at http://127.0.0.1:8000/.
